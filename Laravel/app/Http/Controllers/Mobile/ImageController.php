@@ -155,10 +155,12 @@ class ImageController extends Controller
 
              $sender = Image::where('id',$id)->where('receiver_id',$request->user_id)->update(['is_receiver_show'=>1]);
 
-             $noti = Notification::where('request_id',$id)->where('user_id',$request->user_id)->first();
+                $noti = Notification::where('request_id',$id)->where('user_id',$request->user_id)->first();
+                
+                if($noti){
+                    $is_noti = NotificationShow::where('notification_id',$noti->id)->where('user_id',$request->user_id)->update(['is_show_notification'=>1]);
+                }
 
-             $is_noti = NotificationShow::where('notification_id',$noti->id)->where('user_id',$request->user_id)->update(['is_show_notification'=>1]);
-             
              $image_detail['sender_user_data'] = $sender_user_data;
              $image_detail['recive_user_data'] = $recive_user_data;
 
