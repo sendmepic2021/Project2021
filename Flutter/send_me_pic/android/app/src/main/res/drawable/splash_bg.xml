@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/app_color" />
+    <item
+        android:width="700dp"
+        android:height="1000dp"
+        android:gravity="center"
+        android:drawable="@drawable/launch_background">
+
+    </item>
+
+<!--    <item-->
+<!--        android:gravity="center"-->
+<!--        android:drawable="@drawable/only_logo">-->
+
+<!--    </item>-->
+
+    <item
+        android:gravity="center"
+        android:width="200dp"
+        android:height="110dp"
+        android:drawable="@drawable/ic_android_splash_logo">
+    </item>
+
+
+</layer-list>

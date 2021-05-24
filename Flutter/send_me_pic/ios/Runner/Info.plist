@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Send Me Pic</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>send_me_pic</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.485298546681-40ibcrc0k0c988abm83ids364fle67rf</string>
+				<string>fb828363017892063</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FacebookAdvertiserIDCollectionEnabled</key>
+	<true/>
+	<key>FacebookAppID</key>
+	<string>828363017892063</string>
+	<key>FacebookAutoLogAppEventsEnabled</key>
+	<true/>
+	<key>FacebookDisplayName</key>
+	<string>Send Me Pic</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fbapi20130214</string>
+		<string>fbapi20130410</string>
+		<string>fbapi20130702</string>
+		<string>fbapi20131010</string>
+		<string>fbapi20131219</string>
+		<string>fbapi20140410</string>
+		<string>fbapi20140116</string>
+		<string>fbapi20150313</string>
+		<string>fbapi20150629</string>
+		<string>fbapi20160328</string>
+		<string>fbauth</string>
+		<string>fb-messenger-share-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+		<string>fb-messenger-api</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Please Allow this permission to get image from your gallery</string>
+	<key>NSAppleMusicUsageDescription </key>
+	<string>Please allow this permission to use this app's Music Feature</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Please allow this permission to use this app's Bluetooth Always Usage</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Please allow this permission to use this app's Bluetooth Feature</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Please allow this permission to use this app's Calendars Feature</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Please Allow this permission to take picture from your camera, so you can share near by place live pictures and give other users to see live pictures.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Please allow this permission to use this app's Contact Feature</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Please allow location so you can see other near by users and ask for pictures</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Please allow location so you can see other near by users and ask for pictures</string>
+	<key>NSLocationDefaultAccuracyReduced</key>
+	<string>Please allow location so you can see other near by users and ask for pictures</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Please allow location so you can see other near by users and ask for pictures</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Please allow location so you can see other near by users and ask for pictures</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Please allow this permission to use this app's Motion Usage Feature</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Please allow this permission to get image from your gallery, to update your profile picture</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Please allow this permission to get image from your gallery, to update your profile picture</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Please allow this permission to use this app's Speech Recognition UsageFeature</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

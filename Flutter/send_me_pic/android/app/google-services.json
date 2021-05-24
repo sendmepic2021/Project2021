@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "485298546681",
+    "project_id": "sendmepic-c4a60",
+    "storage_bucket": "sendmepic-c4a60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485298546681:android:a21ceab04eebc2027aff28",
+        "android_client_info": {
+          "package_name": "com.sqt.send_me_pic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485298546681-1gm8ujdfq4j6gkj2g3k5u3l97b9np3q7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sqt.send_me_pic",
+            "certificate_hash": "d5cd59de8e77ff2bc757885321df9d9d64285884"
+          }
+        },
+        {
+          "client_id": "485298546681-viftaedrc2v30oq58rvbcv5q50je68sf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sqt.send_me_pic",
+            "certificate_hash": "be5b20140a4e28194eeb1bd6b5bd54a4d5343a00"
+          }
+        },
+        {
+          "client_id": "485298546681-meqtbgp9ubnntttaose87dha399o7esi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIC7v2UhL9zz8magGZRzkZWJdqc1lNRIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485298546681-meqtbgp9ubnntttaose87dha399o7esi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "485298546681-40ibcrc0k0c988abm83ids364fle67rf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sqt.sendmepicapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
