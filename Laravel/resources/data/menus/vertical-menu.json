@@ -1,0 +1,49 @@
+{
+  "menu": [
+    {
+      "url": "dashboard",
+      "name": "Dashboard",
+      "i18n": "Dashboard",
+      "icon": "desktop",
+
+      "tagcustom": "badge badge-light-danger badge-pill badge-round float-right mr-2"
+    },
+    {
+      "url": "user",
+      "name": "User",
+      "i18n": "User",
+      "slug": "user",
+      "icon": "user"
+     
+    },
+    {
+      "url": "photos",
+      "name": "Images",
+      "i18n": "Images",
+      "slug": "images",
+      "icon": "image"
+    },
+    {
+      "url": "notifications",
+      "name": "Notification",
+      "i18n": "User-Notification",
+      "slug": "user-notification",
+      "icon": "bell"
+    },
+
+    {
+      "url": "websetting",
+      "name": "Web-Settings",
+      "i18n": "Web-Settings",
+      "slug": "web-settings",
+      "icon": "globe"
+    },
+    {
+      "url": "appsettings",
+      "name": "App-Settings",
+      "i18n": "App-Settings",
+      "slug": "app-settings",
+      "icon": "smartphone"
+    }
+  ]
+}
